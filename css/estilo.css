@@ -1,0 +1,2113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(#e64804d7, #f6b40db8);  
+    font-family: 'monserrat', sans-serif;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main,
+nav,
+header{
+    max-width:1200px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.fondo_header {
+    background-color: #010101;
+    background-image:url(../img/banner.jpg);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+header {
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 10%;
+    text-shadow: 1px 1px 1px #010101;
+}
+
+header div{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* --- INTRODUCCION --- */
+
+.contenedor_in{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding: 5px;
+    background: linear-gradient(260deg, #fdf2f275, transparent);
+    border-radius: 30px;
+}
+
+.contenedor_img img{
+    width: 300px;
+    margin: 15px;
+}
+
+.conte_text p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    padding: 10px;
+    line-height: 1.5;
+    /* background: linear-gradient(360deg, #fdf2f275, transparent); */
+}
+/* .section{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
+    margin: 15px auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    align-items: center; 
+}
+.section img{
+    width: 100%;
+    border-radius: 30px;
+    border: dashed 3px white;
+}
+.conte_text p{
+    width: 50%;
+    padding-left: 250px;
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    border-top: none;
+    line-height: 25px;
+
+   
+    
+}
+.contenedor_index{
+    margin: 50px auto;
+    width: 750px;
+    padding: 30px;
+    background: #48484883;
+    border-radius: 50px;
+    box-shadow: 5px 0 0 5px;
+}  */
+/* .contenedor_img{
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+*/
+iframe{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/*---------------------------*/
+/* .contenedor_in{
+    font-size: 0;
+}
+
+.contenedor_in div{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 1.2;
+}
+.contenedor_img{
+    width: 50%;
+}
+.contenedor_img img{
+    width: 100%;
+    display: block;
+    box-shadow: 2px 2px 7px #010101;
+    border-radius: 5px;
+}
+
+.conte_text{
+    width: 50%;
+    padding-left: 20px;
+    text-shadow: 1px 1px 20px #010101;
+} */
+
+/*-----------------------------------------*/
+/* .contenedor_intro{
+    font-size: 0;
+}
+
+.contenedor_intro div{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+
+
+.intro_text{
+    width: 50%;
+    padding-left: 20px;
+} */
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/*--- H4 --- */
+
+h4{
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #010101;
+}
+
+h4:hover{
+    color: #f6b40d;
+    text-decoration: underline;
+}
+/*--- h2 --- */
+
+.serie_ani{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.serie_ani::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.serie_ani:hover::after{
+    width: 40%;
+}
+
+.serie_ani:hover{
+    color: whitesmoke;
+}
+/*--- H3 --- */
+.titulo_copado{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.titulo_copado::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.titulo_copado:hover::after{
+    width: 15%;
+}
+
+.titulo_copado:hover{
+    color: whitesmoke;
+}
+
+/*--1991 h3--*/
+
+.titulo_linea{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.titulo_linea::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.titulo_linea:hover::after{
+    width: 20%;
+}
+
+.titulo_linea:hover{
+    color: whitesmoke;
+}
+
+/*--Carta coleccionable 3D h3--*/
+
+.titulo_joya{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.titulo_joya::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 1s ease;
+}
+
+.titulo_joya:hover::after{
+    width: 45%;
+}
+
+.titulo_joya:hover{
+    color: whitesmoke;
+}
+/*--- TITULO PRINCIPAL H1 --- */
+
+h1{
+    font-family: 'Bevan';
+    font-weight: 400;
+    background: linear-gradient(red, orange, yellow);
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*--- H2 --- */
+
+h2{
+    font-family: 'Bevan';
+    font-weight: 300;
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+h2::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+h2:hover::after{
+    width: 30%;
+}
+
+h2:hover{
+    color: whitesmoke;
+}
+
+
+/*--- h2 Estilo ---*/
+.intro{
+    font-family: 'Bevan';
+    font-weight: 300;
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.intro::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.intro:hover::after{
+    width: 38%;
+}
+
+.intro:hover{
+    color: whitesmoke;
+}
+/*--- SANGRIA ---*/
+
+.sangria{
+    text-indent: 70px;
+}
+
+/*---NAVEGACION---*/
+
+nav{
+    text-align: center;  
+    background-color: #f6b40d2b;
+    padding: 30px;
+    max-width: 100%;
+}
+
+nav a{
+    position: relative;
+    color: #010101;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a::after{
+    content: '';
+    position: absolute;
+    background-color: #010101;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s ease;
+}
+
+nav a:hover,
+a.active{
+    color: #ffff;
+}
+
+nav a:hover::after,
+a.active::after{
+    width: 100%;
+}
+/*--- SERIE ANIMADA ---*/
+.contenedor_serie{ 
+    font-weight: bold;
+    margin: 50px auto;
+    width: 750px;
+    padding: 30px;
+    background: #48484883;
+    border-radius: 50px;
+    box-shadow: 5px 0 0 5px; 
+}
+.intro_texto{
+    font-size: 50px;
+    width: 50%;
+    padding-left: 20px;
+}
+.intro_imagen img{
+    width: 100%;
+    display: block;
+    box-shadow: 2px 2px 7px #010101;
+    border-radius: 5px;
+}
+.intro_imagen{
+    width: 100%;
+}
+
+/*--- caja de serie --- */
+
+.contenedor_serie .contenedor_intro{
+    padding: 15px;
+    border: solid 3px #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+}
+
+.intro_texto{
+    width: 80%;
+    font-size: 20px;
+    padding-left: 5px;
+    /* text-shadow: 2px 2px 0px black; */
+}
+
+.contenedor_intro p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    padding: 20px;
+    border: 3px solid #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    line-height: 25px;
+    background: linear-gradient(360deg, #fdf2f275, transparent);
+}
+.contenedor_intro{
+    background-image: url(../img/doc_animado.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 445px;
+    background-position-y: -20px;
+} 
+
+/*------------CARTA-----------------------*/
+
+.contenedor_animado p{
+    margin-top: 10px;
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    padding: 30px;
+    border: 3px solid #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    line-height: 25px;
+    background: linear-gradient(360deg, #fdf2f275, transparent);
+}
+.contenedor_animado{
+    background-image: url(../img/marti_guitarra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 300px;
+    background-position-y: -13px;
+} 
+
+strong{
+    position: relative;
+    color: #010101;
+    font-weight: bold;
+}
+
+strong:hover{
+    text-decoration: underline;
+}
+
+span{
+    color: #010101;
+}
+
+q{
+    font-style: italic;
+    color: #010101;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #010101;
+}
+
+/*--- TRILOGIA --- */
+
+.contenedor_index .titulo_index{
+    text-align: center;
+    background-color: #010101;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 10px 0px 10px 0px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section_uno .derecha{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.section_uno .izquierda{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.section_uno h4{
+    background-color: #010101;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 20px;
+    letter-spacing: 5px;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.section_uno p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    color: #010101;
+    padding: 15px;
+    border-radius: 30px;
+    border-top: none;
+    margin: 15px;
+    line-height: 1.5;
+}
+
+.section_uno div{
+    background: linear-gradient(45deg, #fdf2f275, transparent);
+    padding: 20px 15px 30px;
+    border: solid 2px #010101;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.caja_uno{
+    border: 2px solid black;
+}
+
+.izquierda{
+    margin: 5px 20px 10px 0;
+}
+
+.contenedor_index{ 
+    font-weight: bold;
+    margin: 50px auto;
+    width: 750px;
+    padding: 30px;
+    background: #48484883;
+    border-radius: 50px;
+    box-shadow: 5px 0 0 5px;
+}
+
+figure{
+    display: block;
+    background-color: #010101;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+    margin: auto;
+    border: thin solid #010101;
+}
+
+figcaption{
+    background-color: #010101;
+    padding: 0 10px 5px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+figure img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* --- REPARTO --- */ 
+/* --- TITULO --- */
+.titulito{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.titulito::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.titulito:hover::after{
+    width: 23%;
+}
+
+.titulito:hover{
+    color: whitesmoke;
+}
+/* --- BOTON --- */
+.contenedor_index .elemento input[type="submit"]{
+    font-family:'Montserrat';
+    font-weight: 600;
+    background-image: linear-gradient(to right, #f6b40d 50%, #e64904 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: 1s ease;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 0 0 2px;
+    color: #010101;
+}
+
+.contenedor_index .elemento input[type="submit"]:hover{
+    background-position: right;
+}
+
+/*--- Marty --- */
+
+.contenedor_index .img_marty{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.parrafo_m{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family:'Montserrat';
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.img_marty img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+ul .lista_cero{
+    font-family:'Montserrat';
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+ul .lista_cero span{
+    color: #fff;
+}
+
+ul .lista_cero strong{
+    color: #fff;
+}
+
+/*--- lloyd --- */
+
+.contenedor_index .img_lloyd{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_lloyd img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+ul .lista_uno{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+ul .lista_uno span{
+    color: #fff;
+}
+
+ul .lista_uno strong{
+    color: #fff;
+}
+
+
+/*--- Tannen --- */
+
+.contenedor_index .img_tannen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.img_tannen img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+ul .lista_dos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+ul .lista_dos span{
+    color: #fff;
+}
+
+ul .lista_dos strong{
+    color: #fff;
+}
+
+/*--- Lea Thompson --- */
+
+.contenedor_index .img_lea{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_lea img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+ul{
+    list-style-type: none;
+}
+ul .lista_tres{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+ul .lista_tres span{
+    color: #fff;
+}
+
+ul .lista_tres strong{
+    color: #fff;
+}
+
+/*--- George --- */
+
+.contenedor_index .img_crispin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_crispin img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    
+}
+ul .lista_cuatro{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+ul .lista_cuatro span{
+    color: #fff;
+}
+
+ul .lista_cuatro strong{
+    color: #fff;
+}
+
+/*--- Crispin --- */
+
+.contenedor_index .img_mary{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.img_mary img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+ul .lista_cinco{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+ul .lista_cinco span{
+    color: #fff;
+}
+
+ul .lista_cinco strong{
+    color: #fff;
+}
+
+/*--- LOGO BANNER ---*/
+.logo-img{
+        height: 100px;
+        cursor: pointer;
+}
+
+.logo-img:hover{
+    transition: all 0.3s;
+    transform: scale(1.2);
+}
+
+/* --- COLECCION --- */
+.contenedor_secundario{ 
+    font-weight: bold;
+    margin: 50px auto;
+    width: 950px;
+    padding: 30px;
+    background: #48484883;
+    border-radius: 50px;
+    box-shadow: 5px 0 0 5px; 
+}
+
+.sub_uno{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.sub_uno::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.sub_uno:hover::after{
+    width: 22%;
+}
+
+.sub_uno:hover{
+    color: whitesmoke;
+}
+/*---- CAJA DELOREAN ---- */
+
+.contenedor_secundario .titulo_con{
+    text-align: center;
+    background-color: #010101;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;   
+}
+
+.contenedor_secundario .contenedor_delo{
+    padding: 10px 15px 10px;
+    border: solid 3px #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+}
+
+.texto{
+    width: 80%;
+    font-size: 20px;
+    padding-left: 5px;
+    /* text-shadow: 2px 2px 3px black; */
+}
+
+.contenedor_delo div{
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor_delo p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    padding: 20px;
+    border: 3px solid #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    line-height: 25px;
+    background: linear-gradient(360deg, #fdf2f275, transparent);
+}
+.contenedor_delo{
+    background-image: url(../img/marti_maneja.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 430px;
+    background-position-y: -65px;
+} 
+.intro_img img{
+    margin: 50px;
+    width: 50%;
+    display: block;
+    box-shadow: 2px 2px 7px #010101;
+    /* border-radius: 50%; */
+}
+
+.foto{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 10px 10px 50px;
+    box-shadow: 2px 1px 4px 2px #00000075;
+}
+/*---- CAJA CONDENSADOR DE FLUJO ---- */
+.contenedor_secundario .titulo{
+    text-align: center;
+    background-color: #010101;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;   
+}
+
+.contenedor_secundario .contenedor_con{
+    padding: 10px 15px 10px;
+    border: solid 3px #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+}
+
+
+.texto{
+    width: 80%;
+    font-size: 20px;
+    padding-left: 5px;
+    /* text-shadow: 2px 2px 3px black; */
+}
+
+.contenedor_con div{
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor_con p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    padding: 20px;
+    border: 3px solid #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    line-height: 25px;
+    background: linear-gradient(360deg, #fdf2f275, transparent);
+}
+
+.contenedor_con{
+    background-image: url(../img/condensadoruno.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 450px;
+    background-position-y: -65px;
+} 
+
+/*---- CAJA DEL ALMANAQUE ---- */
+.contenedor_secundario .titulo{
+    text-align: center;
+    background-color: #010101;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;   
+}
+
+.contenedor_secundario .contenedor_alma{
+    padding: 10px 15px 10px;
+    border: solid 3px #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+}
+
+
+.texto{
+    width: 80%;
+    font-size: 20px;
+    padding-left: 5px;
+    /* text-shadow: 2px 2px 3px black; */
+}
+
+.contenedor_alma div{
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor_alma p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    padding: 20px;
+    border: 3px solid #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    line-height: 25px;
+    background: linear-gradient(360deg, #fdf2f275, transparent);
+}
+.contenedor_alma{
+    background-image: url(../img/almanaqueinvi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 400px;
+    background-position-y: -110px;
+} 
+
+/*---- LEXUS HOVERBOEAD ---- */
+
+
+/* -------------------------------------- */
+.contenedor_secundario .titulo{
+    text-align: center;
+    background-color: #010101;
+    color: whitesmoke;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;   
+}
+
+.contenedor_secundario .contenedor_lexus{
+    padding: 10px 15px 10px;
+    border: solid 3px #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+}
+
+
+.texto{
+    width: 80%;
+    font-size: 20px;
+    padding-left: 5px;
+    /* text-shadow: 2px 2px 3px black; */
+}
+
+.contenedor_lexus div{
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contenedor_lexus p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    padding: 20px;
+    border: 3px solid #010101;
+    border-radius: 0px 0px 10px 10px;
+    border-top: none;
+    line-height: 25px;
+    background: linear-gradient(360deg, #fdf2f275, transparent);
+}
+.contenedor_lexus{
+    background-image: url(../img/img_tabla.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 525px;
+    background-position-y: 5px;    
+} 
+
+/* --- MUSICA --- */
+
+.subtitulo{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.subtitulo::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.subtitulo:hover::after{
+    width: 17%;
+}
+
+.subtitulo:hover{
+    color: whitesmoke;
+}
+
+.contenedor_ter .titulo_x{
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 25px;   
+}
+.parrafo_uno p{
+    font-family:'Montserrat';
+    font-weight: 600;
+    color: #010101;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.img_x img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: solid 10px #fff;
+}
+
+.parrafo_uno{
+    background: linear-gradient(360deg, #fdf2f275, transparent);
+    border-radius: 5%;
+    border: 5px solid black;
+    padding: 4%;
+}
+
+/*--- Earth Angel ---*/
+.contenedor_ter{ 
+    font-weight: bold;
+    margin: 50px auto;
+    width: 950px;
+    padding: 60px;
+    background: #48484883;
+    border-radius: 50px;
+    box-shadow: 5px 0 0 5px; 
+}
+
+.contenedor_ter .caja_1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_1 li{
+    font-size: 18px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_1 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+/*--- Johnny B. Goode ---*/
+
+.contenedor_ter .caja_2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_2 li{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_2 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+/*--- The Power of love ---*/
+
+.contenedor_ter .caja_3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_3 li{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_3 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+
+/*--- Back in time ---*/
+
+.contenedor_ter .caja_4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_4 li{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_4 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+
+/*--- Back to the future ---*/
+
+.contenedor_ter .caja_5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_5 li{
+    font-size: 18px;
+    text-align:center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_5 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+
+/*--- Mr. Sandman ---*/
+
+.contenedor_ter .caja_6{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_6 li{
+    font-size: 15px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_6 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+
+/*--- The Washington ---*/
+
+.contenedor_ter .caja_7{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_7 li{
+    font-size: 18px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_7 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+
+/*--- The wallflower ---*/
+
+.contenedor_ter .caja_8{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #010101;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.caja_8 li{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+}
+
+.caja_8 li:hover{
+    border: solid 3px red;
+}
+.lista_cero span:hover{
+    color: red;
+}
+
+/* --- FOOTER ---*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(../img/pngegg\ \(40\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x:right;
+    background-position-y: bottom;
+    background-size: 25%;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #010101;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.pie-pagina .grupo-1 h2::after{
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 800;
+    bottom: -10px;
+    transition: 1s ease;
+}
+
+.pie-pagina .grupo-1 h2:hover::after{
+    width: none;
+}
+
+h2:hover{
+    color: whitesmoke;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pie-pagina .grupo-1 .red-social a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    background-color: #e64904;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    
+}
+
+.pie-pagina .grupo-2 span{
+    font-size: 15px;
+    color: #fff;
+}
+.arriba_i{
+    top: 2115px;
+}
+
+/*--- COLECCION ---*/
+.arriba_c{
+    top: 3115px;
+}
+
+/*--- TRILOGIA ---*/
+.arriba_t{
+    top: 9085px;
+}
+
+/*--- REPARTO ---*/
+.arriba_r{
+    top: 3045px;
+}
+
+/*--- MUSICA ---*/
+.arriba_m{
+    top: 4875px;
+}
+/*--- FORMULARIO ---*/
+.arriba_f{
+    top: 2355px;
+}
+/*--- SERIE ANIMADA ---*/
+.arriba_se{
+    top: 2645px;
+}
+
+.iframe iframe{
+    aspect-ratio: 2 / 1;
+}
+
+#arriba_sa{
+    top: 1670px;
+}
+.pie-pagina .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, #f6b40d 50%, rgb(230, 73, 4) 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: 1s ease;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+    border: 2px solid #010101;
+}
+
+.pie-pagina .arriba:hover{
+    background-position: right;
+}
+
+
+/*---FOTO MIA CON DEGRADADO-----*/
+
+.cajita{
+    border: 2px solid rgba(230,73,4,1);
+    height: 250px;
+    width: 250px;
+    margin: 36px auto;
+    border-radius: 10px;
+}
+
+.gradient{
+background: linear-gradient(48deg, rgba(230,73,4,1)0%, rgba(222,69,205,0) 60%), url(../img/leandro.jpg);
+background-size:cover;
+background-position-y:bottom;
+background-position-x:right;
+
+}
+
+/*--- FORMULARIO ---*/
+
+.fondo_header {
+    background-color: #010101;
+    background-image:url(../img/banner.jpg);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-attachment: fixed;
+}
+
+header {
+    color: whitesmoke;
+    text-align: left;
+    padding-top: 100px;
+    text-shadow: 1px 1px 1px #010101;
+} /**/
+/*------------- TITULO H2 -----------------*/
+.news{
+    position: relative;
+    color: #010101;
+    /* font-size: 18px; */
+    letter-spacing: 1.5px;
+    padding: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px 0 50px;
+}
+
+.news::after{
+    content: '';
+    position: absolute;
+     background: linear-gradient(90deg,red, orange, yellow);
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.news:hover::after{
+    width: 35%;
+}
+
+.news:hover{
+    color: whitesmoke;
+}
+/*---------------FORMULARIO-------------------------*/
+.contenedor{
+    /* font-family:'Montserrat'; */
+    /* font-weight: 600; */
+    margin: 50px auto;
+    width: 750px;
+    padding: 30px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 50px;
+    box-shadow: 5px 0 0 5px;
+    background-image: url(../img/img_form.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:500px;
+    background-position-y:top;
+    background-position-x:right;
+    background-position-y: 300px; 
+    background-position-x: 390px; 
+}
+
+::placeholder{
+    color: #fff;
+}
+
+.contenedor h1{
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: #010101;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.contenedor .elemento label{
+    font-family:'Montserrat';
+    color: #010101;
+    font-weight: bold;
+
+}
+
+.contenedor .elemento input{
+    /* width: 100%; */
+    padding: 10px 0;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+.contenedor .elemento input[type="submit"]{
+    font-family:'Montserrat';
+    background-image: linear-gradient(to right, #f6b40d 50%, #e64904 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: 1s ease;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 0 0 2px;
+    color: #010101;
+}
+
+.contenedor .elemento input[type="submit"]:hover{
+    background-position: right;
+}
+
+.contenedor .elemento input[type="reset"]{
+    font-family:'Montserrat';
+    background-image: linear-gradient(to right, #f6b40d 50%, #e64904 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: 1s ease; 
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 1px;
+    border-radius: 10px; 
+    box-shadow: 3px 0 0 2px;
+    color: #010101;
+}
+.contenedor .elemento input[type="reset"]:hover{
+    background-position: right;
+}
+
+.elemento{
+    color: #010101;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+input, label {
+    display: block;  
+    width: 100%;
+}
+
+select{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color-scheme: dark;
+    cursor: pointer;
+}
+
+.inline-fieldset{
+    font-family:'Montserrat';
+    font-weight: bold;
+    padding: 15px;
+    border-color: transparent;
+    border-radius: 5px;
+    margin: 10px 0px;
+
+}
+
+.inline-fieldset label, .inline-fieldset input{
+    display: inline;
+    font-weight: normal;
+    width: inherit;
+    font-family:'Montserrat';
+    font-weight: 600;
+}
+
+.inline-fieldset label::selection{
+    background-color: orange;
+}
+
+
+.inline-fieldset .form_titulo{
+    margin: 15px 0;
+    color: #010101;
+    border-bottom: 2px solid #010101;
+    padding-bottom: 5px;
+}
+
+.inline-fieldset input{
+    margin: 5px 5px 5px 10px;
+    accent-color: orange;
+}
+
+textarea{
+    font-family:'Montserrat';
+    font-weight: 600;
+    width: 100%;
+    min-height: 200px;
+    font-size: 16px;
+    padding: 8px;
+    resize: vertical;
+    margin: 10px 8px;
+    color-scheme: dark;
+    
+}
+/* --- Serie Animada --- */
+
+/*--- CARTA 3D ---*/
+
+    
+.caja{
+    margin: 0px 50px auto;
+    cursor: pointer;
+    position: relative;
+    width: 250px;
+    padding: 0px;
+    transition: all .3s ease;
+}
+
+.caja>div{
+    background-image: linear-gradient(red, orange, yellow);
+    position: absolute;
+    border-radius: 50%;
+    padding: 4%;
+    margin: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.caja img:first-child{
+    box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.caja img:last-child{
+    position: absolute;
+    width: 242px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+}
+
+.caja:hover{
+    transform: perspective(550px) rotateX(20deg);
+}
+
+.caja::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to bottom, transparent -10%, rgba(0, 0, 0)95%);
+    opacity: 0;
+    transition: all .3s ease;
+    filter: drop-shadow(2px 2px 2px rgba(255, 0, 0, 0.678));
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+}
+
+.caja:hover::before{
+    opacity: 1;
+    
+}
+
+.caja:hover img:last-child{
+    opacity: 1;
+    transform: translateY(-10%);
+}
+    
+/* --- FOOTER ---*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+    text-align: center;
+    font-size: 25px;
+    background-image: url(../img/img_footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x:right;
+    background-position-y: bottom;
+    background-size: 25%;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 1px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    background-color: #e64904;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 span{
+    font-size: 15px;
+}
+
+.pie-pagina .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to right, #f6b40d 50%, rgb(230, 73, 4) 50%);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: 1s ease;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+    border: 2px solid #010101;
+    
+}
+
+.pie-pagina .arriba:hover{
+    background-position: right;
+}
+
+/*--------*/
+
+.cajita{
+    border: 2px solid #010101;
+    height: 250px;
+    width: 250px;
+    margin: 36px auto;
+    border-radius: 50%;
+}
+
+.gradient{
+background: linear-gradient(360deg, #010101, rgba(222,69,205,0) 60%), url(../img/leandro.jpg);
+background-size:cover;
+background-position-y:bottom;
+background-position-x:right;
+
+}
+
+.fuente li a{
+    color: #fff;
+}
+
+.fuente li :hover{
+    color: rgb(230, 73, 4);
+}

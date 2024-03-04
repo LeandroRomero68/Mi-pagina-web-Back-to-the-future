@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="favicon/miniAuto.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Montserrat:wght@300;400;600;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/749f5445a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="fondo_header">
+        <header>
+            <div class="logo"><img src="img/logo.png" alt="logo de back to the future" class="logo-img"></div>
+            <div>Christopher Lloyd,  Michael J. Fox</div>
+            <div>Dir. Robert Zemeckis, Bob Gale, Neil Canton</div>
+            <div>1985</div>
+        </header>
+        </div>
+
+            <div class="fondo_nav">
+                
+                <nav>
+                    <a href="index.html">Introduccion</a>
+                    <a href="trilogia.html">La Trilogia</a>
+                    <a href="reparto.html">Reparto</a>
+                    <a href="coleccion.html">Coleccion</a>
+                    <a href="musica.html">Musica</a>
+                    <a href="formulario.html" class="active">Formulario</a>
+                    <a href="serie_animada.html">Serie animada</a>
+                </nav>
+            </div>
+
+    <main>
+        <div class="contenedor">
+            
+            <h1>Formulario</h1>
+            <h2 class="news">Newsletter</h2>
+
+        <form action="#" method="post">
+            <div class="elemento">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required="true" placeholder="Ingrese su nombre de Usuario"/>
+            </div>
+            <div class="elemento">
+                <label for="number">Numero de telefono</label>
+                <input type="number" id="number" name="number" required="true" placeholder="Ingrese su numero de telefono"/>
+            </div>
+            <div class="elemento">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" name="nombre" required="true" placeholder="Ingrese su nombre y apellido"/>
+            </div>
+            <div class="elemento">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required="true" placeholder="Ingrese su e-mail"/>
+            </div>
+            <div class="elemento">
+                <label for="edad">Edad</label>
+                <input type="edad" id="edad" name="edad" required="true" placeholder="Ingrese su edad"/>
+            </div>
+            <div class="elemento">
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass" required="true" placeholder="Su contraseña"/>
+            </div>
+    
+            <fieldset class="inline-fieldset">
+    
+            <legend class="form_titulo">Que personaje de la trilogia consideras que es el mejor?</legend>
+    
+            <div>
+                <input type="radio" id="Marty" name="Volver_al_futuro" value="Marty">
+                <label for="Marty">Marty</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="Doc" name="Volver_al_futuro" value="Doc">
+                <label for="Doc">Doc</label>
+            </div>
+    
+                <div>
+                <input type="radio" id="Biff" name="Volver_al_futuro" value="Biff">
+                <label for="Biff">Biff</label>
+            </div>
+    
+            <div>   
+                <input type="radio" id="Geoger" name="Volver_al_futuro" value="Geoger">
+                <label for="Geoger">George</label>
+            </div>
+    
+            <div>   
+                <input type="radio" id="Clara" name="Volver_al_futuro" value="Clara">
+                <label for="Clara">Clara</label>
+            </div>
+    
+            <div>   
+                <input type="radio" id="lorraine" name="Volver_al_futuro" value="Lorraine">
+                <label for="Lorraine">Lorraine</label>
+            </div>
+            
+            
+            </fieldset>
+    
+                <fieldset class="inline-fieldset">
+    
+                    <legend class="form_titulo">Que personaje de la trilogia te gustaria conocer?</legend>
+                <div>
+                    <input type="checkbox" id="marty" name="volver_al_futuro[]" value="marty"/>
+                    <label for="marty">Marty</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="doc" name="volver_al_futuro[]" value="doc"/>
+                    <label for="doc">Doc</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="biff" name="volver_al_futuro[]" value="biff"/>
+                    <label for="biff">Biff</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="George" name="volver_al_futuro[]" value="George"/>
+                    <label for="George">George</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="clara" name="volver_al_futuro[]" value="Clara"/>
+                    <label for="Clara">Clara</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="Lorraine" name="volver_al_futuro[]" value="Lorraine"/>
+                    <label for="Lorraine">Lorraine</label>
+                </div>
+                
+                
+                </fieldset>
+    
+                <fieldset class="inline-fieldset">
+                    <legend class="form_titulo">Contanos tu experiencia si llegas a viajar en el tiempo</legend>
+                    <label for="viajero"></label>
+                    <textarea id="viajero" name="viajero" placeholder="Contanos en 200 caracteres o menos" maxlength="200"></textarea>
+    
+                </fieldset> 
+    
+            <fieldset class="inline-fieldset">
+    
+                <legend class="form_titulo">De que color es el DeLorean</legend>
+                <label for="color"></label>
+    
+                <select name="color" id="color">
+                    <option value="rojo">Gris y Negro</option>
+                    <option value="verde">Verde y Rojo</option>
+                    <option value="amarillo">Amarillo y Violeta</option>
+                </select>
+            </fieldset>
+            
+    
+    
+    
+            <div class="elemento">
+                <input type="submit" value="Enviar" class="boton"/>
+                <input type="reset" value="Restablecer" class="boton">
+            </div>
+            
+        </form>
+    
+        </div>
+        </main>
+
+        <footer class="pie-pagina">
+            <a href="formulario.html" class="arriba_f arriba"><i class="fa-solid fa-angles-up"></i></a>
+            <div class="grupo-1">
+                <div class="box">
+
+                    <div class="cajita gradient">
+                    </div>
+                </div>
+                <div class="box">
+                    <h2>sobre mi</h2>
+                    <p>Leandro Lionel Romero D Alegre</p>
+                    <p>leandro.romerod@davinci.edu.ar</p>
+                    <p>34 años</p>
+                </div>
+                <div class="box">
+                    <h2>redes</h2>
+                    <div class="red-social">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://www.twitch.tv/rlgammer" target="_blank"><i class="fa-brands fa-twitch"></i></a>
+                        <a href="https://instagram.com/elartedelbuencafe?igshid=eDc2ZnJ0Znl6cjJt" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/leandro-romero-dalegre/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <span>&copy; 2023, Romero Leandro - All rights reserved.</span>
+    
+            </div>
+        </footer>
+</body>
+</html>
